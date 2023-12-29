@@ -1,0 +1,26 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+#itemContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.thumbnail img{
+    height: 200px;
+    width:18rem;
+}
+.col-sm-3 img{
+    height: 50px;
+    width: 50px;
+}
+#button:hover{
+    background-color: red;
+}
+#button:active{
+    background-color: blue;
+}
+#badge{
+    width: 15px;
+    height: 15px;
+}
